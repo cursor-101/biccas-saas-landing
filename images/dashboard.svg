@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="500" rx="10" fill="#4535AF"/>
+  
+  <!-- Transaction Card -->
+  <rect x="50" y="50" width="250" height="150" rx="10" fill="white"/>
+  <rect x="70" y="70" width="100" height="20" rx="5" fill="#EEEEEE"/>
+  <rect x="70" y="100" width="210" height="20" rx="5" fill="#EEEEEE"/>
+  <rect x="70" y="130" width="150" height="20" rx="5" fill="#EEEEEE"/>
+  <rect x="70" y="160" width="180" height="20" rx="5" fill="#EEEEEE"/>
+  
+  <!-- Credit Card -->
+  <rect x="320" y="50" width="250" height="150" rx="10" fill="#161C28"/>
+  <circle cx="350" cy="100" r="20" fill="#232937"/>
+  <circle cx="380" cy="100" r="20" fill="#232937"/>
+  <rect x="340" y="140" width="150" height="20" rx="5" fill="#E6E6E6" fill-opacity="0.5"/>
+  <rect x="340" y="170" width="80" height="15" rx="4" fill="#F0F0EF"/>
+  
+  <!-- Income Stats -->
+  <rect x="50" y="220" width="250" height="100" rx="10" fill="white"/>
+  <rect x="70" y="240" width="40" height="40" rx="5" fill="#74C9A9"/>
+  <rect x="120" y="240" width="100" height="15" rx="5" fill="#A9A7B6"/>
+  <rect x="120" y="265" width="150" height="15" rx="5" fill="#000000"/>
+  
+  <!-- Message Card -->
+  <rect x="320" y="220" width="200" height="100" rx="10" fill="#FFAA94"/>
+  <circle cx="350" cy="270" r="20" fill="white"/>
+  <rect x="385" y="260" width="100" height="20" rx="5" fill="white"/>
+  
+  <!-- Database Card -->
+  <rect x="50" y="340" width="200" height="100" rx="10" fill="#FBC75E"/>
+  <rect x="80" y="360" width="140" height="10" rx="5" fill="white"/>
+  <rect x="80" y="380" width="140" height="10" rx="5" fill="white"/>
+  <rect x="80" y="400" width="140" height="10" rx="5" fill="white"/>
+  <rect x="80" y="420" width="140" height="10" rx="5" fill="white"/>
+  
+  <!-- Vector Line -->
+  <path d="M50 450 Q 300 250 550 450" stroke="#54BD95" stroke-width="3" fill="none"/>
+</svg>
