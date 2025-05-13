@@ -198,10 +198,6 @@ img {
     position: relative;
     padding: 18rem 0 10rem;
     overflow: hidden;
-    background-image: url('../images/hero-bg.svg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .hero-content {
@@ -259,7 +255,6 @@ img {
     height: auto;
     display: block;
 }
-
 
 /* 배경 이미지 효과 */
 .hero::before {
