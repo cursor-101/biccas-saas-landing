@@ -198,6 +198,10 @@ img {
     position: relative;
     padding: 18rem 0 10rem;
     overflow: hidden;
+    background-image: url('../images/hero-bg.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero-content {
@@ -257,20 +261,18 @@ img {
 }
 
 
-.hero-background {
+/* 배경 이미지 효과 */
+.hero::before {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    background: radial-gradient(circle at top right, rgba(255, 214, 214, 0.5) 0%, transparent 30%),
+                radial-gradient(circle at bottom left, rgba(82, 189, 170, 0.5) 0%, transparent 30%),
+                radial-gradient(circle at center, rgba(84, 190, 150, 0.3) 0%, transparent 40%);
     z-index: -1;
-    overflow: hidden;
-}
-
-.hero-background img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 /* 회사 로고 섹션 */
