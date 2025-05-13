@@ -244,48 +244,33 @@ img {
 
 .dashboard-mockup {
     width: 100%;
-    height: 50rem;
-    background-color: #4535AF;
+    height: auto;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
 }
 
-.transaction-card, .credit-card, .income-card, .message-card, .database-card {
+.dashboard-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.hero-background {
     position: absolute;
-    background-color: var(--white);
-    border-radius: 1rem;
-    box-shadow: var(--box-shadow);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
 }
 
-.bg-ellipse {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(100px);
-}
-
-.bg-ellipse-1 {
-    width: 30rem;
-    height: 30rem;
-    background-color: #FFD6D6;
-    top: -5rem;
-    right: 5rem;
-}
-
-.bg-ellipse-2 {
-    width: 25rem;
-    height: 25rem;
-    background-color: #52BDAA;
-    bottom: 5rem;
-    left: -10rem;
-}
-
-.bg-ellipse-3 {
-    width: 20rem;
-    height: 20rem;
-    background-color: #54BE96;
-    top: 20rem;
-    right: 20%;
+.hero-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* 회사 로고 섹션 */
@@ -362,6 +347,13 @@ img {
     background-color: var(--light-bg);
     border-radius: 1rem;
     margin-top: 3rem;
+    overflow: hidden;
+}
+
+.feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* 지원 섹션 */
@@ -997,7 +989,7 @@ img {
     }
 
     .dashboard-mockup {
-        height: 40rem;
+        height: auto;
     }
 
     .cta-content {
